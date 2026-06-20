@@ -32,6 +32,9 @@ jobs:
       - name: Install Buildozer
         run: pip install buildozer cython
 
+      - name: Clean Buildozer cache
+        run: rm -rf ~/.buildozer
+
       - name: Build APK
         working-directory: ${{ github.workspace }}
         run: buildozer android debug
