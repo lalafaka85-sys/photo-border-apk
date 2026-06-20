@@ -14,11 +14,13 @@ android.permissions = READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,READ_MEDIA_IM
 android.api = 33
 android.minapi = 24
 android.ndk = 25b
-android.sdk = 34
 android.gradle_dependencies =
-android.arch = arm64-v8a
+android.archs = arm64-v8a
 android.allow_backup = True
 android.logcat_filters = *:S python:D
+android.accept_sdk_license = True
+android.build_tools_version = 34.0.0
+p4a.branch = develop
 ios.kivy_version = 2.3.0
 
 [buildozer]
